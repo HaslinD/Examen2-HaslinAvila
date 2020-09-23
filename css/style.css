@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;500;700;900&family=Heebo:wght@100;300;500;700;900&display=swap');
 
 body{
-	font-size: Segoe UI;
+	font-size: Catamaran;
 	font-size: 15px;
 	color: #777;
 }
@@ -30,4 +30,16 @@ footer #copy{
 	margin-top: 5%;
 	color: #fff;
 	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+#hero{
+	background-image: url("../img/slider-glob.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #FFF;
+	padding: 10% 0;	
+	background-color: #000000;
+	border-bottom-right-radius: 100%;
 }
