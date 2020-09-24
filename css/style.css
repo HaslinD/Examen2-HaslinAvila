@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;500;700;900&family=Heebo:wght@100;300;500;700;900&display=swap');
 
 body{
-	font-size: Catamaran;
+	font-family: 'Catamaran';
 	font-size: 15px;
 	color: #777;
 }
@@ -37,9 +37,37 @@ footer #copy{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-align: center;
+	text-align: left;
 	color: #FFF;
 	padding: 10% 0;	
-	background-color: #000000;
+	background-color: #282932;
 	border-bottom-right-radius: 100%;
+}
+
+.btn-cc{
+	padding: 10px 30px;
+	font-size: 13px;
+	font-weight: 600;
+	background-color: #f7b614;
+	border: 0;
+	color: #fff;
+}
+
+#hero h1{
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Heebo';
+}
+
+#hero span{
+	color: #f7b614;
+}
+
+#hero p{
+	padding: 5% 0;
+}
+
+#populargoods {
+	text-align: center;
+	padding: 5% 0;
 }
