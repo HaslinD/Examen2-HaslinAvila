@@ -76,6 +76,17 @@ footer #copy{
 	background-color: #282932;
 }
 
-#sitathome {
-	
+#sitathome h2{
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Heebo';
+	color:  #fff;
+}
+
+#sitathome span{
+	color: #f7b614;
+}
+
+#sitathome p{
+	color: #fff;
 }
